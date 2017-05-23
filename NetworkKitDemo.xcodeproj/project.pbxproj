@@ -15,14 +15,15 @@
 		10F430F71ED43BEB00167D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F430F51ED43BEB00167D5E /* LaunchScreen.storyboard */; };
 		10F431021ED43BEB00167D5E /* NetworkKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431011ED43BEB00167D5E /* NetworkKitDemoTests.m */; };
 		10F4310D1ED43BEB00167D5E /* NetworkKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4310C1ED43BEB00167D5E /* NetworkKitDemoUITests.m */; };
-		10F4312D1ED43C4600167D5E /* CHCAPIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4311D1ED43C4600167D5E /* CHCAPIContext.m */; };
-		10F4312E1ED43C4600167D5E /* CHCAPIManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4311F1ED43C4600167D5E /* CHCAPIManager+Common.m */; };
-		10F4312F1ED43C4600167D5E /* CHCAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431211ED43C4600167D5E /* CHCAPIManager.m */; };
-		10F431301ED43C4600167D5E /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 10F431221ED43C4600167D5E /* ReadMe */; };
-		10F431311ED43C4600167D5E /* CHCNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431251ED43C4600167D5E /* CHCNetworkConstants.m */; };
-		10F431321ED43C4600167D5E /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431271ED43C4600167D5E /* NSObject+JSON.m */; };
-		10F431331ED43C4600167D5E /* CHCHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4312A1ED43C4600167D5E /* CHCHttpHelper.m */; };
-		10F431341ED43C4600167D5E /* CHCRequestID.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4312C1ED43C4600167D5E /* CHCRequestID.m */; };
+		10F4315F1ED447CD00167D5E /* NET_APIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4314F1ED447CD00167D5E /* NET_APIContext.m */; };
+		10F431601ED447CD00167D5E /* NET_APIManager+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431511ED447CD00167D5E /* NET_APIManager+Common.m */; };
+		10F431611ED447CD00167D5E /* NET_APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431531ED447CD00167D5E /* NET_APIManager.m */; };
+		10F431621ED447CD00167D5E /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 10F431541ED447CD00167D5E /* ReadMe */; };
+		10F431631ED447CD00167D5E /* NET_NetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431571ED447CD00167D5E /* NET_NetworkConstants.m */; };
+		10F431641ED447CD00167D5E /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431591ED447CD00167D5E /* NSObject+JSON.m */; };
+		10F431661ED447CD00167D5E /* NET_RequestID.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4315E1ED447CD00167D5E /* NET_RequestID.m */; };
+		10F431681ED4499B00167D5E /* NET_HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F431671ED4499B00167D5E /* NET_HttpHelper.m */; };
+		68C342EF408A2003FDA8FDD7 /* Pods_NetworkKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10EFA3F6BBE1A0E14FE8B6 /* Pods_NetworkKitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,21 +60,24 @@
 		10F431081ED43BEB00167D5E /* NetworkKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4310C1ED43BEB00167D5E /* NetworkKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkKitDemoUITests.m; sourceTree = "<group>"; };
 		10F4310E1ED43BEB00167D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10F4311C1ED43C4600167D5E /* CHCAPIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCAPIContext.h; sourceTree = "<group>"; };
-		10F4311D1ED43C4600167D5E /* CHCAPIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCAPIContext.m; sourceTree = "<group>"; };
-		10F4311E1ED43C4600167D5E /* CHCAPIManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHCAPIManager+Common.h"; sourceTree = "<group>"; };
-		10F4311F1ED43C4600167D5E /* CHCAPIManager+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CHCAPIManager+Common.m"; sourceTree = "<group>"; };
-		10F431201ED43C4600167D5E /* CHCAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCAPIManager.h; sourceTree = "<group>"; };
-		10F431211ED43C4600167D5E /* CHCAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCAPIManager.m; sourceTree = "<group>"; };
-		10F431221ED43C4600167D5E /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
-		10F431241ED43C4600167D5E /* CHCNetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCNetworkConstants.h; sourceTree = "<group>"; };
-		10F431251ED43C4600167D5E /* CHCNetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCNetworkConstants.m; sourceTree = "<group>"; };
-		10F431261ED43C4600167D5E /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
-		10F431271ED43C4600167D5E /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
-		10F431291ED43C4600167D5E /* CHCHttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCHttpHelper.h; sourceTree = "<group>"; };
-		10F4312A1ED43C4600167D5E /* CHCHttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCHttpHelper.m; sourceTree = "<group>"; };
-		10F4312B1ED43C4600167D5E /* CHCRequestID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCRequestID.h; sourceTree = "<group>"; };
-		10F4312C1ED43C4600167D5E /* CHCRequestID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCRequestID.m; sourceTree = "<group>"; };
+		10F4314E1ED447CD00167D5E /* NET_APIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NET_APIContext.h; sourceTree = "<group>"; };
+		10F4314F1ED447CD00167D5E /* NET_APIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NET_APIContext.m; sourceTree = "<group>"; };
+		10F431501ED447CD00167D5E /* NET_APIManager+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NET_APIManager+Common.h"; sourceTree = "<group>"; };
+		10F431511ED447CD00167D5E /* NET_APIManager+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NET_APIManager+Common.m"; sourceTree = "<group>"; };
+		10F431521ED447CD00167D5E /* NET_APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NET_APIManager.h; sourceTree = "<group>"; };
+		10F431531ED447CD00167D5E /* NET_APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NET_APIManager.m; sourceTree = "<group>"; };
+		10F431541ED447CD00167D5E /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		10F431561ED447CD00167D5E /* NET_NetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NET_NetworkConstants.h; sourceTree = "<group>"; };
+		10F431571ED447CD00167D5E /* NET_NetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NET_NetworkConstants.m; sourceTree = "<group>"; };
+		10F431581ED447CD00167D5E /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		10F431591ED447CD00167D5E /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		10F4315B1ED447CD00167D5E /* NET_HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NET_HttpHelper.h; sourceTree = "<group>"; };
+		10F4315D1ED447CD00167D5E /* NET_RequestID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NET_RequestID.h; sourceTree = "<group>"; };
+		10F4315E1ED447CD00167D5E /* NET_RequestID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NET_RequestID.m; sourceTree = "<group>"; };
+		10F431671ED4499B00167D5E /* NET_HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NET_HttpHelper.m; sourceTree = "<group>"; };
+		4A5FBE1A91421A49197B5963 /* Pods-NetworkKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkKitDemo/Pods-NetworkKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC10EFA3F6BBE1A0E14FE8B6 /* Pods_NetworkKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6C009BDD3E5B94CD7A4032 /* Pods-NetworkKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkKitDemo/Pods-NetworkKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C342EF408A2003FDA8FDD7 /* Pods_NetworkKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +113,8 @@
 				10F431001ED43BEB00167D5E /* NetworkKitDemoTests */,
 				10F4310B1ED43BEB00167D5E /* NetworkKitDemoUITests */,
 				10F430E51ED43BEB00167D5E /* Products */,
+				58C47D45B567C148A832C144 /* Pods */,
+				8F842A194DB67DC3F01E5EFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +131,7 @@
 		10F430E61ED43BEB00167D5E /* NetworkKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				10F4311A1ED43C4600167D5E /* NetworkKit */,
+				10F4314C1ED447CD00167D5E /* NetworkKit */,
 				10F430EA1ED43BEB00167D5E /* AppDelegate.h */,
 				10F430EB1ED43BEB00167D5E /* AppDelegate.m */,
 				10F430ED1ED43BEB00167D5E /* ViewController.h */,
@@ -164,50 +171,67 @@
 			path = NetworkKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		10F4311A1ED43C4600167D5E /* NetworkKit */ = {
+		10F4314C1ED447CD00167D5E /* NetworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				10F4311B1ED43C4600167D5E /* API */,
-				10F431231ED43C4600167D5E /* Helper */,
-				10F431281ED43C4600167D5E /* Http */,
+				10F4314D1ED447CD00167D5E /* API */,
+				10F431551ED447CD00167D5E /* Helper */,
+				10F4315A1ED447CD00167D5E /* Http */,
 			);
 			path = NetworkKit;
 			sourceTree = "<group>";
 		};
-		10F4311B1ED43C4600167D5E /* API */ = {
+		10F4314D1ED447CD00167D5E /* API */ = {
 			isa = PBXGroup;
 			children = (
-				10F4311C1ED43C4600167D5E /* CHCAPIContext.h */,
-				10F4311D1ED43C4600167D5E /* CHCAPIContext.m */,
-				10F4311E1ED43C4600167D5E /* CHCAPIManager+Common.h */,
-				10F4311F1ED43C4600167D5E /* CHCAPIManager+Common.m */,
-				10F431201ED43C4600167D5E /* CHCAPIManager.h */,
-				10F431211ED43C4600167D5E /* CHCAPIManager.m */,
-				10F431221ED43C4600167D5E /* ReadMe */,
+				10F4314E1ED447CD00167D5E /* NET_APIContext.h */,
+				10F4314F1ED447CD00167D5E /* NET_APIContext.m */,
+				10F431501ED447CD00167D5E /* NET_APIManager+Common.h */,
+				10F431511ED447CD00167D5E /* NET_APIManager+Common.m */,
+				10F431521ED447CD00167D5E /* NET_APIManager.h */,
+				10F431531ED447CD00167D5E /* NET_APIManager.m */,
+				10F431541ED447CD00167D5E /* ReadMe */,
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		10F431231ED43C4600167D5E /* Helper */ = {
+		10F431551ED447CD00167D5E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				10F431241ED43C4600167D5E /* CHCNetworkConstants.h */,
-				10F431251ED43C4600167D5E /* CHCNetworkConstants.m */,
-				10F431261ED43C4600167D5E /* NSObject+JSON.h */,
-				10F431271ED43C4600167D5E /* NSObject+JSON.m */,
+				10F431561ED447CD00167D5E /* NET_NetworkConstants.h */,
+				10F431571ED447CD00167D5E /* NET_NetworkConstants.m */,
+				10F431581ED447CD00167D5E /* NSObject+JSON.h */,
+				10F431591ED447CD00167D5E /* NSObject+JSON.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		10F431281ED43C4600167D5E /* Http */ = {
+		10F4315A1ED447CD00167D5E /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				10F431291ED43C4600167D5E /* CHCHttpHelper.h */,
-				10F4312A1ED43C4600167D5E /* CHCHttpHelper.m */,
-				10F4312B1ED43C4600167D5E /* CHCRequestID.h */,
-				10F4312C1ED43C4600167D5E /* CHCRequestID.m */,
+				10F4315B1ED447CD00167D5E /* NET_HttpHelper.h */,
+				10F431671ED4499B00167D5E /* NET_HttpHelper.m */,
+				10F4315D1ED447CD00167D5E /* NET_RequestID.h */,
+				10F4315E1ED447CD00167D5E /* NET_RequestID.m */,
 			);
 			path = Http;
+			sourceTree = "<group>";
+		};
+		58C47D45B567C148A832C144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A5FBE1A91421A49197B5963 /* Pods-NetworkKitDemo.debug.xcconfig */,
+				FF6C009BDD3E5B94CD7A4032 /* Pods-NetworkKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F842A194DB67DC3F01E5EFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC10EFA3F6BBE1A0E14FE8B6 /* Pods_NetworkKitDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F431111ED43BEB00167D5E /* Build configuration list for PBXNativeTarget "NetworkKitDemo" */;
 			buildPhases = (
+				0015A0AD8687DCA4412F2382 /* [CP] Check Pods Manifest.lock */,
 				10F430E01ED43BEB00167D5E /* Sources */,
 				10F430E11ED43BEB00167D5E /* Frameworks */,
 				10F430E21ED43BEB00167D5E /* Resources */,
+				463EF64A2E9928BC84447B8C /* [CP] Embed Pods Frameworks */,
+				27D85A049BD457A66B237B29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,7 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F431301ED43C4600167D5E /* ReadMe in Resources */,
+				10F431621ED447CD00167D5E /* ReadMe in Resources */,
 				10F430F71ED43BEB00167D5E /* LaunchScreen.storyboard in Resources */,
 				10F430F41ED43BEB00167D5E /* Assets.xcassets in Resources */,
 				10F430F21ED43BEB00167D5E /* Main.storyboard in Resources */,
@@ -342,21 +369,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0015A0AD8687DCA4412F2382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27D85A049BD457A66B237B29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkKitDemo/Pods-NetworkKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463EF64A2E9928BC84447B8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkKitDemo/Pods-NetworkKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10F430E01ED43BEB00167D5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F4315F1ED447CD00167D5E /* NET_APIContext.m in Sources */,
+				10F431601ED447CD00167D5E /* NET_APIManager+Common.m in Sources */,
+				10F431631ED447CD00167D5E /* NET_NetworkConstants.m in Sources */,
+				10F431611ED447CD00167D5E /* NET_APIManager.m in Sources */,
+				10F431661ED447CD00167D5E /* NET_RequestID.m in Sources */,
+				10F431681ED4499B00167D5E /* NET_HttpHelper.m in Sources */,
 				10F430EF1ED43BEB00167D5E /* ViewController.m in Sources */,
-				10F4312F1ED43C4600167D5E /* CHCAPIManager.m in Sources */,
 				10F430EC1ED43BEB00167D5E /* AppDelegate.m in Sources */,
-				10F431341ED43C4600167D5E /* CHCRequestID.m in Sources */,
-				10F4312E1ED43C4600167D5E /* CHCAPIManager+Common.m in Sources */,
 				10F430E91ED43BEB00167D5E /* main.m in Sources */,
-				10F4312D1ED43C4600167D5E /* CHCAPIContext.m in Sources */,
-				10F431331ED43C4600167D5E /* CHCHttpHelper.m in Sources */,
-				10F431311ED43C4600167D5E /* CHCNetworkConstants.m in Sources */,
-				10F431321ED43C4600167D5E /* NSObject+JSON.m in Sources */,
+				10F431641ED447CD00167D5E /* NSObject+JSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +580,7 @@
 		};
 		10F431121ED43BEB00167D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5FBE1A91421A49197B5963 /* Pods-NetworkKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A78G368CQH;
@@ -517,6 +593,7 @@
 		};
 		10F431131ED43BEB00167D5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6C009BDD3E5B94CD7A4032 /* Pods-NetworkKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A78G368CQH;
@@ -596,6 +673,7 @@
 				10F431131ED43BEB00167D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F431141ED43BEB00167D5E /* Build configuration list for PBXNativeTarget "NetworkKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +682,7 @@
 				10F431161ED43BEB00167D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F431171ED43BEB00167D5E /* Build configuration list for PBXNativeTarget "NetworkKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +691,7 @@
 				10F431191ED43BEB00167D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

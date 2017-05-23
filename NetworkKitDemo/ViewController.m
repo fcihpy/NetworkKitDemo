@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NET_APIManager+Common.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,15 @@
 }
 
 
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [[NET_APIManager getServerTime] setCompletionHandler:^(NET_Error *error, id object) {
+        if (!error) {
+            
+        }
+    }];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
